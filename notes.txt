@@ -1,0 +1,13 @@
+Basic HTML, CSS & JS site to make small changes on button press, add user name with input field. Options to change some of the CSS and appearance with options (Buttons, swithces etc.)
+
+<h1> that adds user name if they decide to use input field (Hello ,you! Welcome to simply HCJ)
+
+<h2> So what is it?
+
+<p> Describe what the app is and the technologies it uses (HTML, CSS & Javascript)
+
+<table> Options with switches for change color themes (dark, light, high contrast, the blues, upbeat)
+
+<input color> choose own colors
+
+<button> Big red button for random craziness!
