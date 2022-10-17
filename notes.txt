@@ -11,3 +11,10 @@ Basic HTML, CSS & JS site to make small changes on button press, add user name w
 <input color> choose own colors
 
 <button> Big red button for random craziness!
+
+Style notes
+----------
+
+- Blur background when prompt comes up
+
+- Look under the hood to vies styalized code
