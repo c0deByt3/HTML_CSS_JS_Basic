@@ -12,32 +12,27 @@
 </head>
 
 <body>
-    <header>
+    <header class="blur">
         <nav>
             <a href=#>Change name</a>
             <a href=#>Look under the hood</a>
         </nav>
         <img id="main_logo" src="https://img.itch.zone/aW1hZ2UyL2phbS8yNjgxLzMyOTQxOS5wbmc=/original/4Pm03N.png" alt="HTML, CSS and Javascript logos">
-        <h1>Hello, <span class="yourName">you</span>! Welcome to simply HCJ</h1>
+        <h1>Hello<span class="yourName"></span>! Welcome to simply HCJ</h1>
     </header>
 
     <dialog id="userPrompt">
         <form method="dialog">
-            <label for="name">Enter your name for a more personal welcome:</label>
+            <label for="name">Enter your name for something more personal:</label>
             <input type="text" id="name" name="name">
           <button>OK</button>
         </form>
       </dialog>
 
-    <main>
-        <h2>So, what is this?</h2>
+    <main class="blur">
+        <h2>So, what is HCJ?</h2>
 
-        <p><span class="yourName">As</span> you can probably tell from the logos, this site is built with the 3 fundamental technologies used in web development; HTML, CSS & Javascript (HCJ). You can use some of the options within this page to modify the look of the page for a more personalized experience.</p>
-
-        <p>If you dare, press the big red button at your <em>own risk!</em></p>
-
-        <!-- <label for="name">Enter your name for a more personal welcome:</label>
-        <input type="text" id="name" name="name"> -->
+        <p><span class="yourName">As</span> you may, or may not know from the logos, this site is built with the 3 fundamental technologies used in web development; HTML, CSS & Javascript (HCJ). This core technology stack allows you to use the options within this page to modify the look and feel, for something more dynamic and personal.</p>
 
         <form>
             <fieldset>
@@ -57,8 +52,12 @@
             </fieldset>
         </form>
 
+        <h3>Disclaimer!</h3>
+        <p><span class="yourName">We</span> take no responsibility for the outcome if you choose to press the BIG RED BUTTON!</p>
+        <p>Press at your <em>own risk!</em></p>
+
         <form>
-            <label for="randomTheme">Press at own risk!</label>
+            <label for="randomTheme"></label>
             <input type="button" id="randomTheme" name="theme" value="random">
         </form>
     </main>

@@ -3,11 +3,6 @@ body {
     margin: 50px auto;
 }
 
-/* img {
-    width: 40%;
-    box-shadow: 5px 10px;
-} */
-
-#ownTheme {
-    display: block;
+dialog::backdrop {
+    backdrop-filter: blur(6px);
 }

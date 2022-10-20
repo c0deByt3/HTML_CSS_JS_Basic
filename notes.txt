@@ -12,9 +12,15 @@ Basic HTML, CSS & JS site to make small changes on button press, add user name w
 
 <button> Big red button for random craziness!
 
+Sanitize input to exclude dangerouns characters
+
 Style notes
 ----------
 
 - Blur background when prompt comes up
 
 - Look under the hood to vies styalized code
+
+- Textures added
+
+- multi page / jamstack delivered
