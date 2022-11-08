@@ -11,7 +11,8 @@
     <title>Simply HCJ : )</title>
 </head>
 
-<body>
+<body id="pageBody">
+    <div id="mainBody" class="default">
     <header class="blur">
         <nav>
             <a href=#>Change name</a>
@@ -34,7 +35,7 @@
 
         <p><span class="yourName">As</span> you may, or may not know from the logos, this site is built with the 3 fundamental technologies used in web development; HTML, CSS & Javascript (HCJ). This core technology stack allows you to use the options within this page to modify the look and feel, for something more dynamic and personal.</p>
 
-        <form>
+        <form id="colorSelect">
             <fieldset>
                 <legend>Choose a theme:</legend>
                 <div>
@@ -48,6 +49,8 @@
                     <input type="radio" id="theme4" name="theme" value="upbeat">
                     <label for="theme5">Light</label>
                     <input type="radio" id="theme5" name="theme" value="light">
+                    <label for="theme6">Default</label>
+                    <input type="radio" id="theme6" name="theme" value="default">
                 </div>
             </fieldset>
         </form>
@@ -62,7 +65,8 @@
         </form>
     </main>
 
-    <footer></footer>
+    <footer>Created by ThisGuy!</footer>
+    </div>
     <script src="./main.js"></script>
 </body>
 </html>

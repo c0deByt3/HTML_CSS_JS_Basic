@@ -1,8 +1,35 @@
 body {
-    width: 80%;
-    margin: 50px auto;
+    width: 80vw;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.default {
+    padding: 5% 5%;
+    height: 100vh;
+    background-color: lightblue;
+    box-sizing: border-box; 
 }
 
 dialog::backdrop {
     backdrop-filter: blur(6px);
+}
+
+#main_logo {
+    width: 80%;
+}
+
+/* Dark theme */
+
+.dark {
+    padding: 5% 5%;
+    height: 100vh;
+    box-sizing: border-box; 
+    background-color: rgb(77, 91, 95);
+}
+
+.darkBody {
+    width: 80vw;
+    margin: auto;
+    background-color: black;
 }

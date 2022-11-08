@@ -12,7 +12,7 @@ Basic HTML, CSS & JS site to make small changes on button press, add user name w
 
 <button> Big red button for random craziness!
 
-Sanitize input to exclude dangerouns characters
+Sanitize input to exclude dangerous characters
 
 Style notes
 ----------
@@ -24,3 +24,13 @@ Style notes
 - Textures added
 
 - multi page / jamstack delivered
+
+Responsive design
+-----------------
+
+- Easiest way to build responsive apps from the start
+
+Working notes
+------------
+
+Create custom theme componenets and change colors with js

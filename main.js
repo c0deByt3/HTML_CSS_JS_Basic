@@ -22,3 +22,17 @@ document.getElementById('userPrompt').addEventListener('change', function() {
            : userGreeting[2].innerText = `${userName}, we`;
     }
 });
+
+// --------------------------------------------------------------------------
+
+/* Get radio value if selected, add classes to change theme  */
+
+let themes = document.getElementsByName('theme');
+
+for (let choice of themes) {
+    choice.addEventListener('click', function() {
+        document.getElementById('mainBody').className = choice.value;
+        document.getElementById('pageBody').className = choice.value + `Body`;
+        console.log(document.getElementById('mainBody'), document.getElementById('pageBody'));
+    })
+};
