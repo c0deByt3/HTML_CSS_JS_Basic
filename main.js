@@ -55,3 +55,7 @@ for (let choice of themes) {
         themeBuilder(colorSchemes[choice.value]);
     })
 };
+
+// ---------------------------------------------------------------------------
+
+/* Random theme generator */
