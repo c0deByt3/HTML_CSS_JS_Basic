@@ -1,14 +1,33 @@
-body {
+#pageBody {
     width: 80vw;
     margin: auto;
-    background-color: whitesmoke;
+    background-color: #ebf4f1;
+    color: #000000;
 }
 
-.default {
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#mainBody {
     padding: 5% 5%;
     height: 100vh;
-    background-color: lightblue;
-    box-sizing: border-box; 
+    background-color: #dceae5;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    overflow: visible;
+    box-sizing: border-box;
+}
+
+#themeSelect {
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+#label {
+    text-align: center;
+    padding: 10px;
 }
 
 dialog::backdrop {
@@ -16,20 +35,10 @@ dialog::backdrop {
 }
 
 #main_logo {
-    width: 80%;
+    padding: 20px 0px;
+    width: 60%;
 }
 
-/* Dark theme */
-
-.dark {
-    padding: 5% 5%;
-    height: 100vh;
-    box-sizing: border-box; 
-    background-color: rgb(77, 91, 95);
-}
-
-.darkBody {
-    width: 80vw;
-    margin: auto;
-    background-color: black;
+#warning {
+    color: #a80000;
 }
