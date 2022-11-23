@@ -33,4 +33,10 @@ Responsive design
 Working notes
 ------------
 
-Create custom theme componenets and change colors with js
+Change text to contrast against background with random colors
+
+Unselect theme choice if random theme selected
+
+Clean logos
+
+Add shadows and effects

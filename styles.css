@@ -3,6 +3,7 @@
     margin: auto;
     background-color: #ebf4f1;
     color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/dust.png");
 }
 
 a {
@@ -18,6 +19,7 @@ a {
     border-right: 1px solid #000000;
     overflow: visible;
     box-sizing: border-box;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-3.png");
 }
 
 #themeSelect {

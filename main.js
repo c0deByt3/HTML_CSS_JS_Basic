@@ -27,7 +27,7 @@ document.getElementById('userPrompt').addEventListener('change', function() {
 
 /* Get radio value if selected, add classes to change theme  */
 
-let themes = document.getElementsByName('theme');
+const themes = document.getElementsByName('theme');
 
 // Build theme with appropriate colors
 
@@ -59,3 +59,18 @@ for (let choice of themes) {
 // ---------------------------------------------------------------------------
 
 /* Random theme generator */
+
+const randomColors = document.getElementById('randomTheme');
+
+randomColors.addEventListener('click', function() {
+    let randomScheme = {pB: '', mB: '', txt: '', tS: '', warn: ''};
+
+    for (let prop of Object.keys(randomScheme)) {
+        let randomNums = Array();
+        for (let i = 0; i < 3; i++) {
+            randomNums.push(Math.round(Math.random() * 255));
+        }
+        randomScheme[prop] = `rgb(${randomNums.join()})`;
+    }
+    themeBuilder(randomScheme);
+});
