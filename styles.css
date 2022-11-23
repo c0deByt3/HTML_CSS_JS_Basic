@@ -18,8 +18,12 @@ a {
     border-left: 1px solid #000000;
     border-right: 1px solid #000000;
     overflow: visible;
+<<<<<<< HEAD
     box-sizing: border-box;
     background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-3.png");
+=======
+    /* box-sizing: border-box; */
+>>>>>>> f1e0a83d52cbb79150d8ec54cbac29719d00b5a5
 }
 
 #themeSelect {
